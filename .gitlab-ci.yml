@@ -1,0 +1,5 @@
+build_image:
+  tags:
+    - raspberry
+  script:
+    - docker build -t registry.hamfog.net/dm4tze/aprs-loratnc .
