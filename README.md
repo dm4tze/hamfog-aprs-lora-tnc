@@ -4,7 +4,7 @@ From this Dockerfile you can create an Image with RPi-LoRa-KISS-TNC installed on
 
 ## Build
 
-To build this image you can use the `build.sh`. It will create an Image tagged with `registry.hamfog.net/dm4tze/aprs-loratnc`.
+To build this image you can use the `build.sh`. It will create an Image tagged with `registry.hamfog.net/dm4tze/aprs-lora-tnc`.
 
 ## Start
 
