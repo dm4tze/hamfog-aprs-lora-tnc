@@ -6,7 +6,7 @@ COPY ./content /
 
 FROM alpine
 
-RUN apk add --no-cache python3-dev py3-rpigpio py3-pip build-base linux-headers linux-rpi2-dev; pip3 install spidev
+RUN apk add --no-cache python3-dev py3-pip build-base linux-headers linux-rpi-dev; pip3 install spidev RPi.GPIO
 
 COPY --from=build /RPi-LoRa-KISS-TNC /
 
